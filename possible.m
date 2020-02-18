@@ -18,7 +18,7 @@ function bool=possible(x,y,n)
   
   for i=0:2
     for j=0:2
-      if mtrx(y0+i,y0+j)==n
+      if mtrx(y0+i,x0+j)==n
         bool = false;
       end  
     end
